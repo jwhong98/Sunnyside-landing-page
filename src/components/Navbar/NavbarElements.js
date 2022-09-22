@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: red;
+  background: transparent;
+  position: absolute;
   height: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2.5rem;
-  z-index: 10;
 `;
 
 export const Logo = styled.img`
@@ -45,7 +46,8 @@ export const NavLink = styled.a`
 
 export const NavButton = styled.button`
   font-family: "Fraunces", serif;
-  padding: 17px 30px;
+  padding: 14px 22px;
+  font-size: 16px;
   border-radius: 25px;
   border: none;
   outline: none;
