@@ -6,3 +6,9 @@
   /* font-family: 'Fraunces', serif;  for headings*/
   font-size: 18px;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
+}

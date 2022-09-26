@@ -48,7 +48,7 @@ export const InfoLink = styled.a`
     height: 9px;
     width: 115%;
     position: relative;
-    top: -6px;
+    top: -8px;
     left: -8px;
     background: ${({ yellowUnderline }) =>
       yellowUnderline

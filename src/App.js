@@ -3,6 +3,7 @@ import { infoOne, infoTwo } from "./components/InfoSection/data";
 import InfoSection from "./components/InfoSection/InfoSection";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <InfoSection {...infoOne} />
         <InfoSection {...infoTwo} />
         <Services />
+        <Testimonials />
       </>
     </div>
   );
