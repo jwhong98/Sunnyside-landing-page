@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import { infoOne, infoTwo } from "./components/InfoSection/data";
 import InfoSection from "./components/InfoSection/InfoSection";
@@ -15,6 +16,7 @@ function App() {
         <InfoSection {...infoTwo} />
         <Services />
         <Testimonials />
+        <Footer />
       </>
     </div>
   );
